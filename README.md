@@ -1,11 +1,10 @@
-# Paciente Virtual — v3.5
+# Paciente Virtual
 
-**Correção importante:** as chaves (GROQ_API_KEY/OPENAI_API_KEY) e o nome do modelo agora ficam em `st.session_state`.  
-Isso resolve o aviso "Informe a GROQ_API_KEY na sidebar" mesmo quando a chave já foi digitada.
+** Desenvolvido por Dr Fernando Freua. Uso pessoal livre
 
-- Tudo na sidebar (provedor/modelo/chaves, estilo das respostas, prompt).
-- Reset limpa histórico + prompt.
-- Regras de concisão + truncamento por nº de frases.
+- Ja tem um API Key Groq pré formatado. Aceita API Key OpenAI
+- É necessário salvar o prompt do paciente antes de iniciar o chat
+- Informem possiveis erros: fernando.freua@gmail.com
 
 ## Rodar
 ```bash
