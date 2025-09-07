@@ -327,7 +327,7 @@ if question:
 st.markdown("---")
 st.markdown(
     '<div style="text-align: center; color: #666; font-size: 0.8em; margin-top: 20px;">'
-    'Desenvolvido por <strong>Dr Fernando Freua</strong>'
+    'Desenvolvido por <strong>Dr Fernando Freua</strong> e '
     'Idealizador: <strong>Dr Marcelo Calderaro</strong>'
     '</div>', 
     unsafe_allow_html=True
